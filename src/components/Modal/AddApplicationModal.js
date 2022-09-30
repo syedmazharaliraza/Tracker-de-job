@@ -10,7 +10,7 @@ const AddApplicationModal = ({ opened, setOpened }) => {
   const [jobLink, setJobLink] = useState("");
   const [jobRole, setJobRole] = useState("");
   const [status, setStatus] = useState("");
-  const [note, setNote] = useState("");
+  const [note] = useState("");
   const initialJobRoles = useSelector((state) => state.application.jobRoles);
   const initialStatuses = useSelector((state) => state.application.statuses);
   const [jobRoles, setJobRoles] = useState(initialJobRoles);

@@ -1,6 +1,5 @@
 import { Button } from "@mantine/core";
 import { useState } from "react";
-import { RiAddFill } from "react-icons/ri";
 import AddApplicationModal from "../Modal/AddApplicationModal";
 
 const Header = () => {
